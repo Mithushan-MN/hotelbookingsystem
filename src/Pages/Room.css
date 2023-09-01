@@ -1,0 +1,21 @@
+.roomdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 30px;
+}
+
+.room-contain{
+    justify-content: center;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .room-contain {
+      display: flex;
+      flex-direction: column;
+    }
+}

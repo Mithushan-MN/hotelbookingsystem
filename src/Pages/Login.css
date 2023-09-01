@@ -1,0 +1,132 @@
+.row{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap:4rem;
+  padding-bottom: 2rem;
+}
+
+.activeColor{
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 3px;
+  /* background: #af9a7d; */
+  padding: 0.4rem 0.9rem;
+  border: 3px solid #af9a7d;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.pointer{
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 3px;
+  background: #af9a7d;
+  padding: 0.4rem 0.9rem;
+  border: 3px solid #af9a7d;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.maindiv{
+  background: rgb(245, 244, 247);
+  display: inline-flex;
+  align-items: center !important;
+  justify-content: center ;
+  margin: 60px;
+  /* border: 1px solid; */
+  width: 650px;
+  height: 500px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin-left: 27em;
+}
+.login-btn{
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 3px;
+  background: #633b11;
+  padding: 0.4rem 0.9rem;
+  border: 3px solid #633b11;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.input-area{
+  /* background-color: #04AA6D; */
+  border: 1px solid #af9a7d;
+  border-radius: 10px;
+  /* color: white; */
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.rightdiv{
+  /* background: rgb(204, 227, 220); */
+
+  /* background-color: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%); */
+
+  background-image: url("C:/Users/Mithushan/Desktop/Bluechip/firebase/reactlogin/src/images/36194.png" ) ;
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  /* background-color: #b95c5c; */
+  height: 300px;
+  width: 300px;
+
+  
+}
+.leftdiv{
+  height: 300px;
+  width: 300px;
+margin-left: 30px;
+background: rgb(235, 240, 240);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.leftdiv form {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .maindiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 450px;
+    height: 750px;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .maindiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 1rem;
+    width: 350px;
+    height: 750px;
+    gap: 2rem;
+    align-items: center;
+  }
+  .leftdiv{
+    
+  margin-left: 0;
+  
+  }
+}

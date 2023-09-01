@@ -1,0 +1,14 @@
+.cards-contain{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .cards-contain {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
